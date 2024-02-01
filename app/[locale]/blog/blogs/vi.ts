@@ -1207,6 +1207,63 @@ Việt Nam.`,
       },
     ],
   },
+  {
+    id: 215,
+    date: "Mar 16, 2020",
+    datetime: "2020-03-16",
+    category: { title: "Internet of Things", href: "#" },
+    title: `ỨNG DỤNG TRÍ TUỆ NHÂN TẠO CHO ROBOT DI ĐỘNG CHỞ HÀNG (ROBOTICS)`,
+    description: `Robot di động có khả năng tải hàng hóa tối đa 500kg, có khả năng kết nối wireless và giám sát từ xa`,
+    image: `https://firebasestorage.googleapis.com/v0/b/tpm-techs.appspot.com/o/Picture8_IOT.png?alt=media&token=c25c45e3-030f-410b-aa9c-6165f92fb867`,
+    contents: [
+      {
+        type: TYPE.TITLE,
+        content: `Ứng dụng trí tuệ nhân tạo cho hệ robot di động chở hàng`,
+      },
+      {
+        type: TYPE.IMAGE,
+        content: `https://firebasestorage.googleapis.com/v0/b/tpm-techs.appspot.com/o/Picture8_IOT.png?alt=media&token=c25c45e3-030f-410b-aa9c-6165f92fb867`,
+      },
+      {
+        type: TYPE.LIST,
+        items: [
+          `Robot di động có khả năng tải hàng hóa tối đa 500kg`,
+          `Di chuyển theo quỹ đạo được lập trình trước`,
+          `Robot có khả năng kết nối wireless và giám sát từ xa`,
+        ],
+      },
+      {
+        type: TYPE.IMAGE,
+        content: `https://firebasestorage.googleapis.com/v0/b/tpm-techs.appspot.com/o/Picture9.1_IOT.png?alt=media&token=16f1558e-de3d-4c55-915b-c1192d295654`,
+      },
+      {
+        type: TYPE.PARAGRAPH,
+        content: `
+            Cấu trúc bộ điều khiển robot di động thông minh
+          `,
+      },
+      {
+        type: TYPE.IMAGE,
+        content: `https://firebasestorage.googleapis.com/v0/b/tpm-techs.appspot.com/o/Picture11_IOT.png?alt=media&token=033c5113-c624-4d86-93ea-22413265f5b5`,
+      },
+      {
+        type: TYPE.PARAGRAPH,
+        content: `Kết quả nhận dạng sử dụng kỹ thuật xử lý ảnh`,
+      },
+      {
+        type: TYPE.IMAGE,
+        content: `https://firebasestorage.googleapis.com/v0/b/tpm-techs.appspot.com/o/Picture10_IOT.png?alt=media&token=9aa4fb32-965e-4480-8165-f11c6a9769f4`,
+      },
+      {
+        type: TYPE.PARAGRAPH,
+        content: `Mô hình không gian xung quanh con người`,
+      },
+      {
+        type: TYPE.IMAGE,
+        content: `https://firebasestorage.googleapis.com/v0/b/tpm-techs.appspot.com/o/Picture12_IOT.png?alt=media&token=aac3e151-f8ea-4cf0-a7e5-697e6f4302a0`,
+      },
+    ],
+  },
 ]
 
 export const serviceBlogs: IBlog[] = [
