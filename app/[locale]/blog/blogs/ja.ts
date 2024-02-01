@@ -1307,6 +1307,63 @@ export const posts: IBlog[] = [
       },
     ],
   },
+  {
+    id: 215,
+    date: "行進 16, 2020",
+    datetime: "2020-03-16",
+    category: { title: "Internet of Things", href: "#" },
+    title: `貨物移動ロボット用の人工知能アプリケーション`,
+    description: `最大500kgの荷物を積載可能、無線接続と遠隔監視が可能な移動ロボット (ROBOTICS)`,
+    image: `https://firebasestorage.googleapis.com/v0/b/tpm-techs.appspot.com/o/Picture8_IOT.png?alt=media&token=c25c45e3-030f-410b-aa9c-6165f92fb867`,
+    contents: [
+      {
+        type: TYPE.TITLE,
+        content: `移動式貨物ロボットシステムへの人工知能の応用`,
+      },
+      {
+        type: TYPE.IMAGE,
+        content: `https://firebasestorage.googleapis.com/v0/b/tpm-techs.appspot.com/o/Picture8_IOT.png?alt=media&token=c25c45e3-030f-410b-aa9c-6165f92fb867`,
+      },
+      {
+        type: TYPE.LIST,
+        items: [
+          `移動ロボットは最大500kgまで荷物を積載可能`,
+          `事前にプログラムされた軌道に従って移動します`,
+          `ロボットは無線接続と遠隔監視が可能です`,
+        ],
+      },
+      {
+        type: TYPE.IMAGE,
+        content: `https://firebasestorage.googleapis.com/v0/b/tpm-techs.appspot.com/o/Picture9.1_IOT.png?alt=media&token=16f1558e-de3d-4c55-915b-c1192d295654`,
+      },
+      {
+        type: TYPE.PARAGRAPH,
+        content: `
+        知能移動ロボットコントローラの構造
+          `,
+      },
+      {
+        type: TYPE.IMAGE,
+        content: `https://firebasestorage.googleapis.com/v0/b/tpm-techs.appspot.com/o/Picture11_IOT.png?alt=media&token=033c5113-c624-4d86-93ea-22413265f5b5`,
+      },
+      {
+        type: TYPE.PARAGRAPH,
+        content: `画像処理技術による識別結果`,
+      },
+      {
+        type: TYPE.IMAGE,
+        content: `https://firebasestorage.googleapis.com/v0/b/tpm-techs.appspot.com/o/Picture10_IOT.png?alt=media&token=9aa4fb32-965e-4480-8165-f11c6a9769f4`,
+      },
+      {
+        type: TYPE.PARAGRAPH,
+        content: `人間の周りの空間のモデル`,
+      },
+      {
+        type: TYPE.IMAGE,
+        content: `https://firebasestorage.googleapis.com/v0/b/tpm-techs.appspot.com/o/Picture12_IOT.png?alt=media&token=aac3e151-f8ea-4cf0-a7e5-697e6f4302a0`,
+      },
+    ],
+  },
 ]
 
 export const serviceBlogs: IBlog[] = [

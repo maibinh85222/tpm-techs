@@ -1207,6 +1207,63 @@ school.`,
       },
     ],
   },
+  {
+    id: 215,
+    date: "Mar 16, 2020",
+    datetime: "2020-03-16",
+    category: { title: "Internet of Things", href: "#" },
+    title: `ARTIFIED INTELLIGENCE APPLICATION FOR CARGO MOBILE ROBOT (ROBOTICS)`,
+    description: `Mobile robot capable of loading goods up to 500kg, capable of wireless connection and remote monitoring`,
+    image: `https://firebasestorage.googleapis.com/v0/b/tpm-techs.appspot.com/o/Picture8_IOT.png?alt=media&token=c25c45e3-030f-410b-aa9c-6165f92fb867`,
+    contents: [
+      {
+        type: TYPE.TITLE,
+        content: `Application of artificial intelligence for mobile cargo robot system`,
+      },
+      {
+        type: TYPE.IMAGE,
+        content: `https://firebasestorage.googleapis.com/v0/b/tpm-techs.appspot.com/o/Picture8_IOT.png?alt=media&token=c25c45e3-030f-410b-aa9c-6165f92fb867`,
+      },
+      {
+        type: TYPE.LIST,
+        items: [
+          `Mobile robot capable of loading goods up to 500kg`,
+          `Move according to pre-programmed trajectory`,
+          `Robot capable of wireless connection and remote monitoring`,
+        ],
+      },
+      {
+        type: TYPE.IMAGE,
+        content: `https://firebasestorage.googleapis.com/v0/b/tpm-techs.appspot.com/o/Picture9.1_IOT.png?alt=media&token=16f1558e-de3d-4c55-915b-c1192d295654`,
+      },
+      {
+        type: TYPE.PARAGRAPH,
+        content: `
+            Structure of intelligent mobile robot controller
+          `,
+      },
+      {
+        type: TYPE.IMAGE,
+        content: `https://firebasestorage.googleapis.com/v0/b/tpm-techs.appspot.com/o/Picture11_IOT.png?alt=media&token=033c5113-c624-4d86-93ea-22413265f5b5`,
+      },
+      {
+        type: TYPE.PARAGRAPH,
+        content: `Recognition results using image processing techniques`,
+      },
+      {
+        type: TYPE.IMAGE,
+        content: `https://firebasestorage.googleapis.com/v0/b/tpm-techs.appspot.com/o/Picture10_IOT.png?alt=media&token=9aa4fb32-965e-4480-8165-f11c6a9769f4`,
+      },
+      {
+        type: TYPE.PARAGRAPH,
+        content: `Space model around humans`,
+      },
+      {
+        type: TYPE.IMAGE,
+        content: `https://firebasestorage.googleapis.com/v0/b/tpm-techs.appspot.com/o/Picture12_IOT.png?alt=media&token=aac3e151-f8ea-4cf0-a7e5-697e6f4302a0`,
+      },
+    ],
+  },
 ]
 
 export const serviceBlogs: IBlog[] = [
