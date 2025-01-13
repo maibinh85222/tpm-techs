@@ -8,9 +8,9 @@ import { type FC ,useState } from "react"
 import { FormattedMessage, useIntl } from "react-intl";
 import "./index.css"
 import urlcat from "urlcat"
+import LocaleSelect from "components/LocaleSelect"
 import Map from "components/Map"
 import Path from "config/path"
-import LocaleSelect from "components/LocaleSelect"
 
 enum FormType {
   NAME = "name",
@@ -190,7 +190,7 @@ const Footer: FC = () => {
                   </Button>
                 </Col>
                 <Col>
-                  <Button type="link" href="https://www.facebook.com/profile.php?id=61554331060849">
+                  <Button type="link" href="https://www.facebook.com/profile.php?id=61559082667204">
                     <FacebookFilled style={{ fontSize: 28 }} />
                   </Button>
                 </Col>

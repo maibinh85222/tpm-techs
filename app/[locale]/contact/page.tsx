@@ -11,8 +11,8 @@ import {
 } from "@ant-design/icons"
 import { Button, Col, Divider, Row } from "antd"
 import { type FC, useState } from "react"
-import Map from "components/Map"
 import { FormattedMessage, useIntl } from "react-intl"
+import Map from "components/Map"
 
 enum FormType {
   LAST_NAME = "lastName",
@@ -316,7 +316,7 @@ const Contact: FC = () => {
                         </Button>
                       </Col>
                       <Col>
-                        <Button type="link" href="https://www.facebook.com/profile.php?id=61554331060849">
+                        <Button type="link" href="https://www.facebook.com/profile.php?id=61559082667204">
                           <FacebookFilled style={{ fontSize: 28 }} />
                         </Button>
                       </Col>
